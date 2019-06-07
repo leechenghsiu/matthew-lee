@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.js": "/matthew-lee/static/js/main.9ad450a5.chunk.js",
+    "main.js.map": "/matthew-lee/static/js/main.9ad450a5.chunk.js.map",
+    "runtime~main.js": "/matthew-lee/static/js/runtime~main.b5380932.js",
+    "runtime~main.js.map": "/matthew-lee/static/js/runtime~main.b5380932.js.map",
+    "static/js/2.a1621bf6.chunk.js": "/matthew-lee/static/js/2.a1621bf6.chunk.js",
+    "static/js/2.a1621bf6.chunk.js.map": "/matthew-lee/static/js/2.a1621bf6.chunk.js.map",
+    "index.html": "/matthew-lee/index.html",
+    "precache-manifest.11bab815d01b00363a9e02d2cec2fce2.js": "/matthew-lee/precache-manifest.11bab815d01b00363a9e02d2cec2fce2.js",
+    "service-worker.js": "/matthew-lee/service-worker.js",
+    "static/media/background.jpg": "/matthew-lee/static/media/background.9810e81c.jpg"
+  }
+}
