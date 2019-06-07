@@ -1,0 +1,98 @@
+{
+  "works": {
+    "ghowa": {
+      "name": "Ghowa",
+      "slug": "ghowa",
+      "id": 1,
+      "description": "Split your money easier",
+      "slogan": "協助同伴快速分帳的 APP",
+      "role": "Front-end Develop",
+      "language": "React Native",
+      "overview": "畢業專題 － Ghowa 幫你有效率地計算最快的付清方式，你不用花大把的時間計算款項，最後又做冤大頭",
+      "details": "主要負責企劃及前端畫面，企劃包含發想功能，從構思到實作皆參與討論，最後將畫面刻出來以及加上微小動畫"
+    },
+    "no-food-no-course": {
+      "name": "無食無課",
+      "slug": "no-food-no-course",
+      "id": 2,
+      "description": "Reserve, Order, and Pay",
+      "slogan": "提供學餐預約、點餐、支付的平台",
+      "role": "Front-end Develop",
+      "language": "React Native (with Expo)",
+      "overview": "畢業專題 － 無食無課是一款點餐 POS 系統，從預約到現場取餐只需要幾秒鐘的時間，即可完成一筆交易",
+      "details": "獨自完成開發兩個 APP 的前端，跨平台皆可操作，串接 API 到 Node.js 後端及 MongoDB ，並將後端部署到 Azure 雲端服務"
+    },
+    "js-dungeon": {
+      "name": "JS 地下城",
+      "slug": "js-dungeon",
+      "id": 3,
+      "description": "Eliminate the boss",
+      "slogan": "由六角學院提供的實戰練習",
+      "role": "Front-end Develop",
+      "language": "React",
+      "overview": "經由一道一道題目擊敗地下城的 BOSS，目前仍在努力破關中",
+      "details": "使用 React 完成挑戰，目前挑戰至第四關",
+      "link": "https://leechenghsiu.github.io/JS_Dungeon/"
+    }
+  },
+  "about": {
+    "autobiography": [
+      "我是李承修，新北人，目前就讀於台北教育大學數位科技設計學系，我是一個樂觀、喜歡與人相處的大四學生，勇於挑戰一直是我處事的態度，也擁有責任感，遇到挑戰不會輕易放棄。",
+      "大四時，在微軟擔任實習生，想讓自己跳脫舒適圈，見識到很多厲害的人事物，也了解大公司對專案的處理以及複雜的運作模式，處理事情和邏輯推理的能力也因此增進了不少。同時，期許自己能帶著熱忱，邁向人生下一個階段。",
+      "即將擺脫學生身分，立志成為一名前端工程師，探索前端工程的奧秘，也喜歡設計、喜歡美的事物、喜歡追求新鮮事物。平時喜歡拍照攝影，後製工作也相當拿手，打球、 旅遊都是興趣之一，也結交到了許多同好。 "
+    ],
+    "education": {
+      "time": "2015.09 - 2019.06",
+      "college": "國立台北教育大學 — 數位科技設計學系"
+    },
+    "job": {
+      "0": {
+        "time": "2018.07 - 2019.06",
+        "place": "台灣微軟實習",
+        "department": "雲端暨企業部門",
+        "title": "技術助理",
+        "description": "了解 Azure Fundamentals 服務，對外或對夥伴舉辦 Workshop、Hands on Lab 等活動。"
+      }
+    },
+    "experience": {
+      "0": {
+        "time": "2015.09 - 2019.06",
+        "place": "國立台北教育大學",
+        "title": "乙組羽球校隊 隊員",
+        "description": "在校隊擔任先發選手，代表學校參加比賽。"
+      },
+      "1": {
+        "time": "2018 -",
+        "place": "數位科技設計學系",
+        "title": "系網團隊 成員",
+        "description": "大二下加入系網團隊，與教授、學長姐、同學一同開發、改版系上網站。"
+      },
+      "2": {
+        "time": "2018.09 - 2019.01",
+        "place": "數位科技設計學系",
+        "title": "108級 班代",
+        "description": "處理班上各種事務，大四上學期籌備期末展。"
+      },
+      "3": {
+        "time": "2018.09 - 2019.06",
+        "place": "國立台北教育大學",
+        "title": "108級畢聯會 畢業代表",
+        "description": "籌備畢業相關事務，同時代表班上同學和學校溝通，主要負責學士服照及畢冊。"
+      },
+      "4": {
+        "time": "2018.07 – 2019.06",
+        "place": "微軟生涯體驗計劃",
+        "title": "粉絲專頁 小編",
+        "description": "管理粉專、發佈貼文，自行設計圖片文案等等。"
+      }
+    },
+    "skills": {
+      "programming": [
+        "HTML/CSS", "PostCSS", "Bootstrap", "JavaScript", "React.js", "Redux", "React Native", "WordPress"
+      ],
+      "tools": [
+        "Microsoft Office", "Sketch", "Photoshop", "Illustrator", "Premiere", "After Effects"
+      ]
+    }
+  }
+}
