@@ -22,9 +22,9 @@ class WorkListItem extends React.Component {
   };
 
   render() {
-    const background = `/images/${this.props.match.params.slug}/${
+    const background = `${process.env.PUBLIC_URL}/images/${
       this.props.match.params.slug
-    }-icon.png`;
+    }/${this.props.match.params.slug}-icon.png`;
     const {
       name,
       slogan,
@@ -94,9 +94,9 @@ class WorkListItem extends React.Component {
           <div className="px-3 px-sm-5 pb-5">
             <Title>SNAPSHOTS</Title>
             {['color'].map(item => {
-              const snapshot = `/images/${this.props.match.params.slug}/${
+              const snapshot = `${process.env.PUBLIC_URL}/images/${
                 this.props.match.params.slug
-              }-${item}.png`;
+              }/${this.props.match.params.slug}-${item}.png`;
               return (
                 <div>
                   {this.state.color ? (
@@ -118,9 +118,9 @@ class WorkListItem extends React.Component {
             })}
             <Content>Demo</Content>
             {[1, 2, 3, 4, 5].map(item => {
-              const snapshot = `/images/${this.props.match.params.slug}/${
+              const snapshot = `${process.env.PUBLIC_URL}/images/${
                 this.props.match.params.slug
-              }-${item}.png`;
+              }/${this.props.match.params.slug}-${item}.png`;
               return (
                 <img
                   className="mt-1 mb-5 ml-5 align-self-center"

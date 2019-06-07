@@ -13,7 +13,7 @@ import ScrollToTop from '../ScrollToTop';
 const App = () => {
   return (
     <div>
-      <Router history={history}>
+      <Router history={history} basename={process.env.PUBLIC_URL}>
         <ScrollToTop>
           <Switch>
             <Route path="/" exact component={Homepage} />

@@ -30,7 +30,9 @@ class WorkList extends React.Component {
         work.id % 2 === 0
           ? 'col-1 col-sm-2 col-xl-2 d-flex justify-content-start align-items-end'
           : 'col-1 col-sm-2 col-xl-2 d-flex justify-content-end align-items-end';
-      const background = `/images/${work.slug}/${work.slug}.png`;
+      const background = `${process.env.PUBLIC_URL}/images/${work.slug}/${
+        work.slug
+      }.png`;
 
       return (
         <StyledLink className="text-decoration-none" key={work.slug}>

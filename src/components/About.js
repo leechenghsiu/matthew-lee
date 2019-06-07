@@ -12,9 +12,9 @@ class About extends React.Component {
 
   render() {
     const { autobiography, education, job, experience, skills } = this.props;
-    const profile = `/images/profile.png`;
-    const ntue = `/images/NTUE.png`;
-    const microsoft = `/images/Microsoft.png`;
+    const profile = `${process.env.PUBLIC_URL}/images/profile.png`;
+    const ntue = `${process.env.PUBLIC_URL}/images/NTUE.png`;
+    const microsoft = `${process.env.PUBLIC_URL}/images/Microsoft.png`;
 
     if (!autobiography) {
       return null;
