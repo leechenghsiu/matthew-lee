@@ -5,8 +5,6 @@ import { Link } from 'react-router-dom';
 import MdCloseCircle from 'react-ionicons/lib/MdCloseCircle';
 
 import { fetchWork } from '../actions';
-// import Modal from '../Modal';
-// import history from '../history';
 
 class WorkListItem extends React.Component {
   state = {
