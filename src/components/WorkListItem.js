@@ -115,7 +115,7 @@ class WorkListItem extends React.Component {
               );
             })}
             <Content>Demo</Content>
-            {[1, 2, 3, 4, 5].map(item => {
+            {[1, 2, 3, 4, 5, 6, 7].map(item => {
               const snapshot = `${process.env.PUBLIC_URL}/images/${
                 this.props.match.params.slug
               }/${this.props.match.params.slug}-${item}.png`;
